@@ -23,11 +23,12 @@
                 foodTitle.innerHTML = foodShow;
                 foodContainer.appendChild(foodTitle);
 
+                  //  detail part
+
                 foodTitle.addEventListener("click",function(){
                 console.log('detail')
                   
-
-                  //  detail part
+                  // food detail
                   const uniqueResult = document.getElementById('unique-result')
                   const uniqueResultShow = `
                   <img src ="${food.strMealThumb}">
@@ -47,6 +48,7 @@
                   
                   </ul>
                   `
+                  //display into html part
                   uniqueResult.style.display="block"
                   uniqueResult.innerHTML = uniqueResultShow;
                 })
