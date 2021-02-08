@@ -1,0 +1,36 @@
+#foods{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-radius: 5px;
+    grid-gap: 10px;
+}
+.food-title{
+    width: 350px;
+    border: 0.5px solid gray;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+.food-name{
+text-align: center;
+font-size: 1rem;
+font-weight: 700;
+}
+.food-title img{
+    height: 200px;
+    width: 310px;
+    padding-left: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+#unique-result{
+    height: 500px;
+    width: 300px;
+    border: 2px solid black;
+    display: none;
+}
+#unique-result img{
+height: 300px;
+width: 300px;
+padding: 10px;
+}
