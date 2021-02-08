@@ -24,16 +24,26 @@
                 foodContainer.appendChild(foodTitle);
 
                 foodTitle.addEventListener("click",function(){
-                    fetch('https://www.themealdb.com/api/json/v1/1/random.php')
-                    .then(res => res.json())
-                    .then(data =>console.log(data.meals))
+                  console.log('ore allah')
 
                   //  detail part
                   const uniqueResult = document.getElementById('unique-result')
                   const uniqueResultShow = `
                   <img src ="${food.strMealThumb}">
+                  
                   <h3>${food.strMeal}</h3>
-                  <h2>${food.strIngredient1}</h2>
+                  <ul>
+                  <li>${food.strIngredient1}</li>
+                  <li>${food.strIngredient1}</li>
+                  <li>${food.strIngredient1}</li>
+                  <li>${food.strIngredient1}</li>
+                  <li>${food.strIngredient1}</li>
+                  <li>${food.strIngredient1}</li>
+                  <li>${food.strIngredient1}</li>
+                  <li>${food.strIngredient1}</li>
+                  <li>${food.strIngredient1}</li>
+                  <li>${food.strIngredient1}</li>
+                  </ul>
                   `
                   uniqueResult.style.display="block"
                   uniqueResult.innerHTML = uniqueResultShow;

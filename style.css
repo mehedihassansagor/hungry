@@ -9,6 +9,7 @@
     border: 0.5px solid gray;
     border-radius: 20px;
     padding: 10px;
+    box-shadow: 10px 10px 40px gray;
     
 }
 .food-name{
@@ -24,13 +25,19 @@ font-weight: 700;
     border-radius: 10px;
 }
 #unique-result{
-    height: 500px;
+    height: 550px;
     width: 300px;
-    border: 2px solid black;
+    box-shadow: 10px 10px 40px gray;
     display: none;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
 }
 #unique-result img{
-height: 300px;
+height: 200px;
 width: 300px;
 padding: 10px;
+border-radius: 10px;
+padding:5px
 }
