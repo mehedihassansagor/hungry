@@ -1,7 +1,7 @@
 
         const finding = document.getElementById('find').addEventListener('click',function(){
             //search by name
-            fetch('https://www.themealdb.com/api/json/v1/1/filter.php?i='+giveInput.value+'')
+            fetch(' https://www.themealdb.com/api/json/v1/1/search.php?s='+giveInput.value+'')
             .then(response => response.json())
            .then(data => displayFoods(data.meals)); 
            //search by letter
@@ -24,14 +24,15 @@
                 foodContainer.appendChild(foodTitle);
 
                 foodTitle.addEventListener("click",function(){
-                  console.log('ore allah')
+                console.log('detail')
+                  
 
                   //  detail part
                   const uniqueResult = document.getElementById('unique-result')
                   const uniqueResultShow = `
                   <img src ="${food.strMealThumb}">
                   
-                  <h3>${food.strMeal}</h3>
+                  <h3 class="title-detail">${food.strMeal}</h3>
                   <ul>
                   <li>${food.strIngredient1}</li>
                   <li>${food.strIngredient2}</li>
@@ -43,6 +44,7 @@
                   <li>${food.strIngredient8}</li>
                   <li>${food.strIngredient9}</li>
                   <li>${food.strIngredient10}</li>
+                  
                   </ul>
                   `
                   uniqueResult.style.display="block"

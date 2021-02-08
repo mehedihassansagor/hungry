@@ -29,7 +29,7 @@ font-weight: 700;
     width: 300px;
     box-shadow: 10px 10px 40px gray;
     display: none;
-    text-align: center;
+    
     border-radius: 20px;
     margin-bottom: 20px;
 
@@ -40,4 +40,7 @@ width: 300px;
 padding: 10px;
 border-radius: 10px;
 padding:5px
+}
+.title-detail{
+    text-align: center;
 }
