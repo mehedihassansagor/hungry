@@ -34,15 +34,15 @@
                   <h3>${food.strMeal}</h3>
                   <ul>
                   <li>${food.strIngredient1}</li>
-                  <li>${food.strIngredient1}</li>
-                  <li>${food.strIngredient1}</li>
-                  <li>${food.strIngredient1}</li>
-                  <li>${food.strIngredient1}</li>
-                  <li>${food.strIngredient1}</li>
-                  <li>${food.strIngredient1}</li>
-                  <li>${food.strIngredient1}</li>
-                  <li>${food.strIngredient1}</li>
-                  <li>${food.strIngredient1}</li>
+                  <li>${food.strIngredient2}</li>
+                  <li>${food.strIngredient3}</li>
+                  <li>${food.strIngredient4}</li>
+                  <li>${food.strIngredient5}</li>
+                  <li>${food.strIngredient6}</li>
+                  <li>${food.strIngredient7}</li>
+                  <li>${food.strIngredient8}</li>
+                  <li>${food.strIngredient9}</li>
+                  <li>${food.strIngredient10}</li>
                   </ul>
                   `
                   uniqueResult.style.display="block"
